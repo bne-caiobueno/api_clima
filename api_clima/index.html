@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Previsão do tempo</h1>
+        <div>
+            <input type="text" placeholder="cidade" id="input_cidade">
+            <button onclick="Pesquisar_clima()">Verificar</button>
+        </div>
+        <div id="resultado">
+            <div id="mapa_container">
+
+            </div>
+            <p id="temperatura_atual"></p>
+            <p id="temperatura_previsao"></p>
+            <p id="umidade"></p>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
